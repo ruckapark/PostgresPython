@@ -12,5 +12,5 @@ CREATE TABLE photoinfo(
 -- NOTE - it is never recommended that you save the image IN the database
 CREATE TABLE photos_grayscale_64(
     id BIGSERIAL NOT NULL PRIMARY KEY,
-    photos VARCHAR(4096)
+    photos VARCHAR(16384)
 );
